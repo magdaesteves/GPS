@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+/*CSS DO MENU*/
+.menu{
+  padding-top: 20px;
+  height: 50px;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.botoes{
+  padding: 10px;
+  background-color: rgb(31, 122, 140);
+  color: white;
+  width: 80px;
+  margin: 2px;
+  font-size: 15px;
+}
+
+.active{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color:  rgb(31, 122, 140);
+  border: 2px solid rgb(31, 122, 140);
+  font-weight: bold;
+  width: 80px;
+  margin: 2px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.links{
+  float: right;
+  padding-right: 400px;
+  min-width: 200px;
+  display: flex;
+}
+
+.imagem{
+  float: left;
+  padding-left: 400px;
+}
+
+/*CSS DA HOMEPAGE E CURSOS*/
+.conteudoHome{
+  text-align: left;
+  width:1120px;
+  margin: 0 auto;
+  height:800px;
+  background-color: white;
+}
+
+.videos{
+  padding-right: 10px;
+}
+
+.formulario{
+  border: 2px solid rgb(31, 122, 140);
+  width: 97%;
+  padding: 10px;
+}
+
+.titulo{
+  color: rgb(16, 69, 92);
+}
+
+/*APRESENTAÇÃO DOS CURSOS*/
+.containerApresentacao{
+  border: 3px solid rgb(31, 122, 140) ;
+  width: 35%;
+  margin: 10px;
+  height: 200px;
+  text-align: center;
+}
+
+.ladoalado{
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  background-color: white;
+  place-content: center
+}
+
+.centro{
+  text-align: -webkit-center;
+  width: 1300px;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.logos{
+  padding: 25px;
+}
+
+.tamanhoTabela{
+  width: 700px;
+}
+
+.tamanhoCelula{
+  width: 300px;
+  text-align: center;
+}
+
+.tamanhoCelula2{
+  width: 350px;
+  text-align: center;
+}
+
+.tamanhoCelula3{
+  width: 150px;
+  text-align: center;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.tamanhoCelula4{
+  width: 150px;
+}
+
